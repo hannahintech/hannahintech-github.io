@@ -109,3 +109,10 @@ h2 {
   font-size: 125px;
   padding: 12px;
 }
+
+/* page three styling */
+
+.page-three {
+  margin-top: 12px;
+}
+/* nb media queries for this margin! */
