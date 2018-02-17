@@ -31,6 +31,15 @@ $(() => {
     $('.page-five').hide();
   });
 
+  // contact
+  $('.contact').on('click', function() {
+    $('.contact-page').show();
+    $('.page-one').hide();
+    $('.page-two').hide();
+    $('.page-three').hide();
+    $('.page-four').hide();
+    $('.page-five').hide();
+  });
 
 
 // window load function ends

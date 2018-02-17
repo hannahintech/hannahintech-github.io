@@ -116,3 +116,17 @@ h2 {
   margin-top: 12px;
 }
 /* nb media queries for this margin! */
+
+/* contact page */
+.footer-links {
+  padding: 25px;
+}
+
+.fab.fa-github {
+  font-size: 35px;
+}
+
+.fab.fa-twitter {
+  font-size: 35px;
+  color: #00aced;
+}
