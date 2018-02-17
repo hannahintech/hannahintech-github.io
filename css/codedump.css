@@ -1,0 +1,13 @@
+div {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+  z-index: 9999999;
+}
+
+/* on page size change, event listener can be set to listen for new size and inputs width and height accordingly */
