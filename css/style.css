@@ -1,8 +1,10 @@
 body {
+  background-color: #FFDCD7;
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-family: 'Open-Sans', sans-serif;
+  /* font-family: 'Open-Sans', sans-serif; */
+  font-family: 'Noto Sans', sans-serif;
 }
 /* div; for each overlay */
 div {
@@ -30,22 +32,31 @@ a {
 }
 
 li {
+  color: #FB816F;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 h1 {
+  color: #AE5A4D;
   font-size: 50px;
   padding: 5px;
 }
 
 h2 {
+  color: #FB816F;
   font-size: 30px;
   padding: 5px;
 }
 
+p {
+  color: #7B3F37;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
 /* overlays */
-.page-one, .page-two, .page-three {
+.page-one, .page-two, .page-three, .contact-page, .blurb-page {
   display: none;
 }
 
@@ -53,6 +64,10 @@ h2 {
 .page-two {
   flex-direction: row;
   justify-content: center;
+}
+
+.blurb-page {
+  align-items: flex-start;
 }
 
 /* images for projects page two*/

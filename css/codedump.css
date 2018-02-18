@@ -11,3 +11,15 @@ div {
 }
 
 /* on page size change, event listener can be set to listen for new size and inputs width and height accordingly */
+
+
+/* font possibilities */
+
+/* <link href="https://fonts.googleapis.com/css?family=Bellefair|Noto+Sans|Poppins|Slabo+27px" rel="stylesheet"> */
+
+.font-options {
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+  font-family: 'Bellefair', serif;
+}
