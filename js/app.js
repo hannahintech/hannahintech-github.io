@@ -1,5 +1,8 @@
 
+
 $(() => {
+  // carousel
+
   // on page load, show main div;
   $('.page-one').show();
 

@@ -1,5 +1,5 @@
 body {
-  background-color: #FFDCD7;
+  background-color: #C6FBDC;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -32,26 +32,26 @@ a {
 }
 
 li {
-  color: #FB816F;
+  color: #40BC8B;
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 h1 {
-  color: #AE5A4D;
+  color: #387C61;
   font-size: 50px;
   padding: 5px;
 }
 
 h2 {
-  color: #FB816F;
+  color: #40BC8B;
   font-size: 40px;
   padding: 5px;
 }
 
 p {
-  color: #7B3F37;
+  color: #387C61;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
 }
@@ -226,3 +226,5 @@ nav-right, nav-left {
     font-size: 40px;
   }
 }
+
+/* carousel */
