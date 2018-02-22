@@ -2,7 +2,7 @@
 
 $(() => {
   // carousel
-
+  // $('.slick-carousel').slick();
   // on page load, show main div;
   $('.page-one').show();
 
