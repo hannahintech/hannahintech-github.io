@@ -17,7 +17,7 @@ div {
   height: 500px;
 }
 
-nav ul a li {
+nav ul li a {
   z-index: 9999;
 }
 
@@ -58,7 +58,7 @@ p {
 }
 
 /* overlays */
-.page-one, .page-two, .page-three, .contact-page, .blurb-page {
+.page {
   display: none;
 }
 
