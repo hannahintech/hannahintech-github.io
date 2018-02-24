@@ -107,10 +107,12 @@ div {
 }
 .footer {
   text-align: center;
-  flex-direction: column;
-  margin: 15px 0 0 0;
+  margin: 15px 0 50px 0;
+}
+.footer-link {
+  margin: 0 20px 0 20px;
 }
 .fab {
   font-size: 30px;
-  padding: 5px;
+  padding: 0 5px 0 5px;
 }
