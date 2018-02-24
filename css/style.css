@@ -41,7 +41,18 @@ div {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.section-one {
+  background-color: rgba(118, 5, 204, 0.07);
+}
+.section-two {
+  background-color: rgba(118, 5, 204, 0.12);
+}
+.section-three {
+  background-color: rgba(118, 5, 204, 0.18);
+}
+.section-four {
+  background-color: rgba(118, 5, 204, 0.24);
+}
 .title-box {
   margin: 40px 0 0 0;
   justify-content: flex-start;
@@ -53,12 +64,18 @@ div {
   max-width: 350px;
   height: 200px;
 }
+.project {
+  margin: 15px;
+  background-color: white;
+  padding: 25px;
+  width: 300px;
+  max-width: 350px;
+  height: 400px;
+}
 .project-img {
   background-color: white;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 0 5px 0 5px;
 }
 .url-cybercloset {
   background-image: url(../images/cyber-closet.png);
