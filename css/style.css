@@ -27,7 +27,8 @@ h2 {
 
 h3 {
   color: #387C61;
-  font-size: 20px;
+  font-size: 25px;
+  padding: 5px;
 }
 
 p {
@@ -81,7 +82,7 @@ div.box {
 }
 
 .icons {
-  text-align: center;
+  margin: 40px 0 0 0;
   flex-wrap: wrap;
 }
 
@@ -96,4 +97,12 @@ div.box {
 .devicon-sass-original.colored, .devicon-jquery-plain-wordmark.colored, .devicon-react-original-wordmark.colored, .devicon-html5-plain-wordmark.colored, .devicon-css3-plain-wordmark.colored, .devicon-mongodb-plain-wordmark.colored, .devicon-git-plain-wordmark, .devicon-wordpress-plain-wordmark.colored, .devicon-drupal-plain-wordmark.colored, .devicon-python-plain-wordmark, .devicon-django-plain.colored {
   font-size: 65px;
   margin: 5px;
+}
+.footer {
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+.fab {
+  font-size: 30px;
+  padding: 5px;
 }
