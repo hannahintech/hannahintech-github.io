@@ -13,8 +13,13 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1000px;
-  height: 500px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding: 0 50px 0 50px;
+}
+
+nav {
+  border-bottom: 3px, solid, #387C61;
 }
 
 nav ul li a {
@@ -51,15 +56,20 @@ h2 {
   padding: 5px;
 }
 
+h3 {
+  color: #387C61;
+  font-size: 25px;
+}
+
 p {
   color: #387C61;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
 }
 
-/* overlays */
-.page {
-  display: none;
+/* jumbo */
+.jumbo {
+  padding: 30px 0 20px 0;
 }
 
 /* page two */
@@ -68,6 +78,9 @@ p {
   color: black;
   transform: translateY(0px);
   transition: all 0.55s ease;
+  -webkit-box-shadow: 0 20px 6px -8px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 20px 6px -8px rgba(0,0,0,0.15);
+  box-shadow: 0 20px 6px -8px rgba(0,0,0,0.15);
 }
 .movieCard:hover{
   transform: translateY(-10px);
@@ -76,15 +89,10 @@ p {
   box-shadow: 0 20px 6px -8px rgba(0,0,0,0.15);
 
 }
-.page-two {
-  flex-direction: row;
-  justify-content: center;
-}
 
-.blurb-page {
-  align-items: center;
-  width: 1000px;
-  height: 600px;
+.page-blurb {
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 /* images for projects page two*/
@@ -94,8 +102,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 700px;
-  height: 380px;
+  width: 600px;
+  height: 350px;
 }
 /* nav icons page two */
 nav-right, nav-left {
@@ -122,7 +130,7 @@ nav-right, nav-left {
   width: 200px;
 } */
 
-/* page three */
+/* page skills */
 .icons-div {
   flex-direction: row;
   justify-content: center;
@@ -146,16 +154,14 @@ nav-right, nav-left {
   padding: 12px;
 }
 
-/* page three styling */
-
-.page-three {
-  margin-top: 12px;
-}
-/* nb media queries for this margin! */
-
-/* contact page */
+/* page footer */
 .footer-links {
   padding: 25px;
+}
+
+.page-footer {
+  flex-direction: row;
+  justify-content: center;
 }
 
 .fab.fa-github {
