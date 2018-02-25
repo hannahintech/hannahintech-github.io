@@ -17,7 +17,6 @@ h1 {
 h2 {
   color: #40BC8B;
   font-size: 25px;
-  margin: -50px 0 0 0;
 }
 
 h3 {
@@ -53,8 +52,11 @@ div {
   background-color: rgba(118, 5, 204, 0.24);
 }
 .title-box {
+  padding: 25px;
+  width: 410px;
+  height: 100px;
   margin: 40px 0 0 0;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .box {
@@ -67,8 +69,8 @@ div {
   margin: 15px;
   background-color: white;
   padding: 25px;
-  width: 500px;
-  max-width: 500px;
+  width: 350px;
+  max-width: 350px;
   height: 400px;
 }
 .project-img {
@@ -76,9 +78,9 @@ div {
   background-repeat: no-repeat;
   background-size: contain;
   padding: 25px;
-  width: 500px;
-  max-width: 500px;
-  height: 300px;
+  width: 350px;
+  max-width: 350px;
+  height: 200px;
 }
 .url-cybercloset {
   background-image: url(../images/cyber-closet.png);
