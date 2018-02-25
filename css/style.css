@@ -29,7 +29,6 @@ h3 {
 p {
   display: flex;
   text-align: center;
-  padding: 5px 0 0 5px;
   color: #7C6176;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
@@ -102,7 +101,6 @@ div {
   -webkit-box-shadow: 0 20px 6px -8px rgba(0,0,0,0.15);
   -moz-box-shadow: 0 20px 6px -8px rgba(0,0,0,0.15);
   box-shadow: 0 20px 6px -8px rgba(0,0,0,0.15);
-
 }
 
 .icons {
