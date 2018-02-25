@@ -67,14 +67,18 @@ div {
   margin: 15px;
   background-color: white;
   padding: 25px;
-  width: 300px;
-  max-width: 350px;
+  width: 500px;
+  max-width: 500px;
   height: 400px;
 }
 .project-img {
   background-color: white;
   background-repeat: no-repeat;
   background-size: contain;
+  padding: 25px;
+  width: 500px;
+  max-width: 500px;
+  height: 300px;
 }
 .url-cybercloset {
   background-image: url(../images/cyber-closet.png);
