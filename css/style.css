@@ -84,7 +84,7 @@ div {
   background-image: url(../images/monumental-muddle.png);
 }
 .url-moviehub {
-  background-image: url(../images/moviehub.png);
+  background-image: url(../images/moviehub2.png);
 }
 .url-codepod {
   background-image: url(../images/codepod2.png);
@@ -132,4 +132,12 @@ div {
 .fab {
   font-size: 30px;
   padding: 0 5px 0 5px;
+}
+
+@media only screen and (max-width: 380px) {
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
