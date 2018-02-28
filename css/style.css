@@ -110,6 +110,7 @@ div {
 }
 
 .icons {
+  padding: 0px;
   margin: 40px 0 0 0;
   flex-wrap: wrap;
 }
@@ -144,6 +145,9 @@ div {
     flex-direction: column;
     align-items: center;
   }
+  .icons {
+    flex-direction: row;
+  }
   .project {
     margin: 15px;
     background-color: white;
@@ -167,5 +171,23 @@ div {
     height: 110px;
     margin: 40px 0 0 0;
     align-items: flex-start;
+  }
+  .mobile-fa {
+    font-size: 17px;
+  }
+  .mobile-project-link {
+    padding: 6px;
+  }
+  .devicon-javascript-plain.colored, .devicon-linux-plain.colored, .devicon-bootstrap-plain.colored, .devicon-postgresql-plain-wordmark.colored {
+    font-size: 40px;
+    margin: 5px;
+  }
+  .devicon-ruby-plain-wordmark.colored, .devicon-rails-plain-wordmark.colored, .devicon-angularjs-plain.colored, .devicon-express-original.colored, .devicon-nodejs-plain.colored {
+    font-size: 45px;
+    margin: 5px;
+  }
+  .devicon-sass-original.colored, .devicon-jquery-plain-wordmark.colored, .devicon-react-original-wordmark.colored, .devicon-html5-plain-wordmark.colored, .devicon-css3-plain-wordmark.colored, .devicon-mongodb-plain-wordmark.colored, .devicon-git-plain-wordmark, .devicon-wordpress-plain-wordmark.colored, .devicon-drupal-plain-wordmark.colored, .devicon-python-plain-wordmark, .devicon-django-plain.colored {
+    font-size: 55px;
+    margin: 5px;
   }
 }
