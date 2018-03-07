@@ -74,6 +74,22 @@ div {
   max-width: 350px;
   height: 400px;
 }
+.project-movie-hub {
+  margin: 15px;
+  background-color: white;
+  padding: 25px;
+  width: 350px;
+  max-width: 350px;
+  height: 400px;
+}
+.project-place-notes {
+  margin: 15px;
+  background-color: white;
+  padding: 25px;
+  width: 350px;
+  max-width: 350px;
+  height: 450px;
+}
 .project-img {
   background-color: white;
   background-repeat: no-repeat;
@@ -82,6 +98,9 @@ div {
   width: 350px;
   max-width: 350px;
   height: 200px;
+}
+.url-place-notes {
+  background-image: url(../images/place-notes.png);
 }
 .url-cybercloset {
   background-image: url(../images/cyber-closet.png);
@@ -156,6 +175,22 @@ div {
     width: 250px;
     max-width: 250px;
     height: 400px;
+  }
+  .project-place-notes {
+    margin: 15px;
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    max-width: 250px;
+    height: 480px;
+  }
+  .project-movie-hub {
+    margin: 15px;
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    max-width: 250px;
+    height: 480px;
   }
   .project-img {
     background-color: white;
