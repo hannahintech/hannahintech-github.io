@@ -52,6 +52,9 @@ div {
 .section-four {
   background-color: rgba(118, 5, 204, 0.24);
 }
+.section-five {
+  background-color: rgba(118, 5, 204, 0.28);
+}
 .title-box {
   padding: 25px;
   width: 410px;
@@ -72,7 +75,7 @@ div {
   padding: 25px;
   width: 350px;
   max-width: 350px;
-  height: 400px;
+  height: 450px;
 }
 .project-movie-hub {
   margin: 15px;
@@ -80,7 +83,7 @@ div {
   padding: 25px;
   width: 350px;
   max-width: 350px;
-  height: 400px;
+  height: 450px;
 }
 .project-place-notes {
   margin: 15px;
@@ -213,6 +216,9 @@ div {
   }
   .mobile-project-link {
     padding: 6px;
+  }
+  .mobile-project-div {
+    justify-content: flex-end;
   }
   .devicon-javascript-plain.colored, .devicon-linux-plain.colored, .devicon-bootstrap-plain.colored, .devicon-postgresql-plain-wordmark.colored {
     font-size: 40px;
