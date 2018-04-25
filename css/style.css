@@ -196,7 +196,7 @@ div {
     padding: 25px;
     width: 250px;
     max-width: 250px;
-    height: 200px;
+    height: 150px;
   }
   .title-box {
     padding: 25px;
@@ -231,6 +231,9 @@ div {
     padding: 0px;
     width: 350px;
     height: 180px;
+  }
+  .small-box {
+    height: 120px;
   }
   .icons {
     height: 130px;
